@@ -103,3 +103,24 @@ mailUidNumber: 5000
 mailGidNumber: 5000
 mailHomeDirectory: /var/mail/victor@kore.sh
 mailStorageDirectory: maildir:/var/mail/victor@kore.sh/Maildir
+
+dn: cn=thierry,ou=users,dc=kore,dc=sh
+changetype: add
+objectClass: top
+objectClass: simpleSecurityObject
+objectClass: person
+objectClass: organizationalPerson
+objectClass: extensibleObject
+objectClass: PostfixBookMailAccount
+uid: thierry
+cn: thierry
+sn: Blanc
+mail: thierry@kore.sh
+givenName: Thierry
+mailenable: TRUE
+uniqueIdentifier: thierry
+userPassword: {SSHA}/Gz9YaW0pPk/p8pafn0dCmwE/fdD5ufB
+mailUidNumber: 5000
+mailGidNumber: 5000
+mailHomeDirectory: /var/mail/thierry@kore.sh
+mailStorageDirectory: maildir:/var/mail/thierry@kore.sh/Maildir
